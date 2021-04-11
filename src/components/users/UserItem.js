@@ -17,7 +17,7 @@ const UserItem = ({user : {avatar_url, login, html_url} }) => {
                 </Link>
             </div>
         </div>
-    )
+    );
 };
 
 UserItem.prototype ={

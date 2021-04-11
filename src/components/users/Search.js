@@ -29,6 +29,7 @@ const Search = () =>{
                         value={text} 
                         placeholder="Search User..."
                         onChange={onChange}
+                        autoComplete="off"
                     />
                     
                     <input 
